@@ -13,7 +13,7 @@ const TechStack = () => {
         { name: "HTML 5", icon: "/images/logos/html.png" },
         { name: "CSS 3", icon: "/images/logos/css.png" },
         { name: "JavaScript", icon: "/images/logos/JavaScript.png" },
-        { name: "React JS", icon: "/images/logos/react.png" },
+        { name: "React/JS", icon: "/images/logos/react.png" },
         { name: "Tailwind CSS", icon: "/images/logos/tailwind.png" },
         { name: "Figma", icon: "/images/logos/figma.png" },
         { name: "Canva", icon: "/images/logos/Canva.png" },
@@ -26,7 +26,7 @@ const TechStack = () => {
         { name: "Python", icon: "/images/logos/python.svg" },
         { name: "Three.js", icon: "/images/logos/three.png" },
         { name: "VS Code", icon: "/images/logos/vscode.png" },
-        { name: "Vite", icon: "/images/logos/Vite.png" },
+        { name: "Vite.js", icon: "/images/logos/Vite.png" },
         { name: "WebStorm", icon: "/images/logos/WebStorm.png" },
     ];
 
@@ -43,7 +43,7 @@ const TechStack = () => {
                 opacity: 1,
                 duration: 1,
                 ease: "power2.inOut",
-                stagger: 0.2,
+                stagger: 0.1,
                 scrollTrigger: {
                     trigger: "#skills",
                     start: "top center",
@@ -142,7 +142,7 @@ const TechStack = () => {
         }
 
         .tech-icon-container.interactive:hover .tech-icon {
-          filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5)) brightness(1.2);
+          filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.5)) brightness(1.3);
         }
 
         .tech-card-ball {

@@ -1,6 +1,6 @@
 import * as THREE from "three";
 
-const HeroLights = () => (
+const Lights = () => (
     <>
         {/* lamp*/}
         <spotLight
@@ -39,4 +39,4 @@ const HeroLights = () => (
     </>
 );
 
-export default HeroLights;
+export default Lights;
